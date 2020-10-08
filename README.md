@@ -5,12 +5,13 @@ writer seth mcfeeters
 
 first time using jquery
 
-Number and name of feature: 1 display images, 2 filter images, 3 style application
+f1 pagination
 
-Estimate of time needed to complete: 4 hours;
+Estimate of time needed to complete: 1 hour;
 
-Start time: 4:00 
+Start time: 4:30 
 
-Finish time: 8:00 
+Finish time: who knows 
 
 Actual time needed to complete: 
+
