@@ -8,28 +8,28 @@
 font-family: 'Bebas Neue', cursive;
 */
 
-
+body{
+    background-image: url("Untitled_Artwork.png");
+    background-repeat: repeat x;
+}
 #header{
     background: #ffe66dff;
     max-height: 50vw;
 }
-
 h1{
     padding-top: 2.5vw;
     padding-left:3vw;
     font-family: 'Bebas Neue', cursive;
-    font-size: 15vw; 
+    font-size: 14vw; 
     color: #f7fff7ff;
 }
-
 h2{
     flex: 1;
     background: #1a535cff;
     width: 100%;
     height: 100%;
 }
-
-select{
+button, select{
     margin:auto;
     background: #ff6b6bff;
     border: none;
@@ -38,27 +38,25 @@ select{
     padding: 12px;
     color:#f7fff7ff;
     text-align: center;
+    border-radius: 3px;
 }
-
-
 img{
     max-width: 100%; 
     max-height: 300px;
     border-radius: 4px;
 }
-
  body{
-     background: #4ecdc4ff;
-     width: 100%;
+    background-image: url('/css/codefellowsdoodlebg.png');
+    background-attachment: fixed;
+    background-repeat: repeat;
+    /* z-index: -1; */
  }
- 
 main{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-
-.mediaBox{
+section{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -73,11 +71,9 @@ main{
     border-radius: 4px;
     box-shadow: 8px 8px 8px 1px rgba(0,0,0,0.3);
 }
-
 p{
     background: #ff6b6bff;
 }
-
 footer{
     text-align: center;
 }

@@ -3,9 +3,22 @@ select:hover{
     color: #ff6b6bff;
     transition: all .1s ease-in-out;
 }
+
+button:hover{
+    background: #f7fff7ff;
+    color: #ff6b6bff;
+    transition: all .1s ease-in-out;
+}
+
+button:hover{
+    transition: all .1s ease-in-out;
+}
+
 select{ 
     transition: all .1s ease-in-out;
 }
+
+
 
 h1{
     transition: all 1.5s ease-in-out;
@@ -28,5 +41,13 @@ h1:hover{
     11px 11px #ff6b6bff,
     12px 12px #ff6b6bff, 
     13px 13px #ff6b6bff;
-    transition: all 1.5s ease-in-out both;
+    transition: all .5s ease-in-out both;
+}
+
+input:focus{
+    outline:none;
+}
+
+button:focus{
+    outline:none;
 }
